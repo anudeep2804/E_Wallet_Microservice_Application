@@ -30,7 +30,7 @@ public class UserSecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeHttpRequests()
                 .antMatchers(HttpMethod.POST, "/user/**").permitAll() // signup of new account
                 .antMatchers("/user/**").hasAuthority(UserConstants.USER_AUTHORITY)          // user driven actions
-                .antMatchers("/**").hasAnyAuthority(UserConstants.ADMIN_AUTHORITY, UserConstants.SERVICE_AUTHORITY)               // admin driven actions
+                .antMatchers("/**").hasAnyAuthority(UserConstants.ADMIN_AUTHORITY, UserConstants.SERVICE_AUTHORITY)   // admin driven actions
                 .and()
                 .formLogin();
     }

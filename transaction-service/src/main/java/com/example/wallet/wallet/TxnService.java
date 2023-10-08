@@ -45,8 +45,6 @@ public class TxnService implements UserDetailsService {
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 
 
-        // data from user service and then cache at txn service's end
-
         JSONObject requestedUser = getUserFromUserService(username);
 
         List<GrantedAuthority> authorities;
