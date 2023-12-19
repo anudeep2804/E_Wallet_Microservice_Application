@@ -2,6 +2,9 @@
 
 A comprehensive e-wallet system that enables users to effortlessly transfer amounts, view their balance, recent transactions, and manage account settings. Developed with a microservices architecture and integrated with modern technologies ensuring responsive and secure user interactions.
 
+<img width="803" alt="image" src="https://github.com/anudeep2804/E_Wallet_Microservice_Application/assets/68229062/f2049546-4f6c-47d8-850b-e706ea7509b6">
+
+
 ## 🚀 Features
 
 - **P2P Transfers**: Allow users to send money to other registered users.
