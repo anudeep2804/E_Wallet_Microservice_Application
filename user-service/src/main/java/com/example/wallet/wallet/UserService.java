@@ -30,6 +30,8 @@ public class UserService implements UserDetailsService {
     @Override
     public User loadUserByUsername(String phoneNumber) throws UsernameNotFoundException {
         return userRepository.findByPhoneNumber(phoneNumber);
+
+
     }
 
     public void create(UserCreateRequest userCreateRequest) throws JsonProcessingException {
